@@ -44,16 +44,16 @@ winter=['December', 'January', 'February']
 spring=['March', 'April', 'May']
 summer=['June', 'July', 'August']
 fall=['September', 'October', 'November']
-eighties=range(1980, 1989)
-nineties=range(1990, 1999)
-two_thousands=range(2000, 2099)
-Stone_Age=range(0, 1979)
+eighties=range(1980, 1990)
+nineties=range(1990, 2000)
+two_thousands=range(2000, 2100)
+Stone_Age=range(0, 1980)
 
 #Inputs
 username=input("Hello, what is your name?")
 birthmonth=input("Hello " + username + ", what was the name of the month you were born in?")
-birthyear=input("And what year were you born in, " + username + "?")
-birthday=input("And the day?")
+birthyear=int(input("And what year were you born in, " + username + "?"))
+birthday=int(input("And the day?"))
 
 
 
@@ -89,8 +89,9 @@ if birthyear in Stone_Age:
     aeon="Stone Age"
 
 
-
-print( "{0} , you are a {1} baby of the {2}") .format(username, type, aeon)
+print(username, type, aeon)
+s="{0} , you are a {1} baby of the {2}"
+print(s.format(username, type, aeon))
 
 
 
