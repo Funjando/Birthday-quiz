@@ -43,19 +43,56 @@ winter=['December', 'January', 'February']
 spring=['March', 'April', 'May']
 summer=['June', 'July', 'August']
 fall=['September', 'October', 'November']
+eighties=range(1980, 1989)
+nineties=range(1990, 1999)
+two_thousands=range(2000, 2099)
+Stone_Age=range(0, 1979)
 
+#Inputs
+username=input("Hello, what is your name?")
+birthmonth=input("Hello " + username + ", what was the name of the month you were born in?")
+birthyear=input("And what year were you born in, " + username + "?")
+birthday=input("And the day?")
 
 
 
 #Code
-if birthmonth==October and birthday==31:
+
+
+if birthmonth=="October" and birthday==31:
     print("You were born on Halloween!")
 
+elif birthmonth==month and birthday==todaydate:
+    print("Happy birthday!")
+    
+elif birthmonth in winter:
+    type=winter
+
+elif birthmonth in spring:
+    type=spring
+
+elif birthmonth in summer:
+    type=summer
+
+elif birthmonth in fall:
+    type=fall
+
+elif birthyear in eighties:
+    aeon=eighties
+
+elif birthyear in nineties:
+    aeon=nineties
+    
+elif birthyear in two_thousands:
+    aeon="two thousand"
+    
+elif birthyear in Stone_Age:
+    aeon="Stone Age"
 
 
 
 
-
+print(username + ", you are a {0} baby of the {1}") .format(type, aeon)
 
 
 
