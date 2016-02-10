@@ -31,3 +31,31 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+#imports
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+month=month_name[todaymonth]
+
+#Datalists
+winter=['December', 'January', 'February']
+spring=['March', 'April', 'May']
+summer=['June', 'July', 'August']
+fall=['September', 'October', 'November']
+
+
+
+
+#Code
+if birthmonth==October and birthday==31:
+    print("You were born on Halloween!")
+
+
+
+
+
+
+
+
+
