@@ -51,7 +51,7 @@ Stone_Age=list(range(0, 1980))
 
 #Inputs
 username=input("Hello, what is your name?")
-birthmonth=input("Hello " + username + ", what was the name of the month you were born in?")
+birthmonth=input("Hi " + username + ", what was the name of the month you were born in?")
 birthyear=int(input("And what year were you born in, " + username + "?"))
 birthday=int(input("And the day?"))
 
