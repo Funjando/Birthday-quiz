@@ -89,7 +89,7 @@ if birthyear in Stone_Age:
     aeon="Stone Age"
 
 
-s="{0} , you are a {1} baby of the {2}"
+s="{0}, you are a {1} baby of the {2}"
 print(s.format(username, season, aeon))
 
 
