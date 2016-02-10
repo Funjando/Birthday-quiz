@@ -65,16 +65,16 @@ if birthmonth==month and birthday==todaydate:
     print("Happy birthday!")
     
 if birthmonth in winter:
-    type="winter"
+    season="winter"
 
 if birthmonth in spring:
-    type="spring"
+    season="spring"
 
 if birthmonth in summer:
-    type="summer"
+    season="summer"
 
 if birthmonth in fall:
-    type="fall"
+    season="fall"
 
 if birthyear in eighties:
     aeon="eighties"
@@ -89,9 +89,9 @@ if birthyear in Stone_Age:
     aeon="Stone Age"
 
 
-print(username, type, aeon)
+print(username, season, aeon)
 s="{0} , you are a {1} baby of the {2}"
-print(s.format(username, type, aeon))
+print(s.format(username, season, aeon))
 
 
 
