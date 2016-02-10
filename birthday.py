@@ -50,11 +50,10 @@ two_thousands=list(range(2000, 2100))
 Stone_Age=list(range(0, 1980))
 
 #Inputs
-username=input("Hello, what is your name?")
-birthmonth=input("Hi " + username + ", what was the name of the month you were born in?")
-birthyear=int(input("And what year were you born in, " + username + "?"))
-birthday=int(input("And the day?"))
-
+username=input("Hello, what is your name? ")
+birthmonth=input("Hi " + username + ", what was the name of the month you were born in? ")
+birthyear=int(input("And what year were you born in, " + username + "?" ))
+birthday=int(input("And the day?" ))
 
 
 #Code
