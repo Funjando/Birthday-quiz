@@ -31,6 +31,7 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+
 #imports
 from datetime import datetime
 from calendar import month_name
@@ -57,42 +58,39 @@ birthday=input("And the day?")
 
 
 #Code
-
-
 if birthmonth=="October" and birthday==31:
     print("You were born on Halloween!")
 
-elif birthmonth==month and birthday==todaydate:
+if birthmonth==month and birthday==todaydate:
     print("Happy birthday!")
     
-elif birthmonth in winter:
-    type=winter
+if birthmonth in winter:
+    type="winter"
 
-elif birthmonth in spring:
-    type=spring
+if birthmonth in spring:
+    type="spring"
 
-elif birthmonth in summer:
-    type=summer
+if birthmonth in summer:
+    type="summer"
 
-elif birthmonth in fall:
-    type=fall
+if birthmonth in fall:
+    type="fall"
 
-elif birthyear in eighties:
-    aeon=eighties
+if birthyear in eighties:
+    aeon="eighties"
 
-elif birthyear in nineties:
-    aeon=nineties
+if birthyear in nineties:
+    aeon="nineties"
     
-elif birthyear in two_thousands:
+if birthyear in two_thousands:
     aeon="two thousand"
     
-elif birthyear in Stone_Age:
+if birthyear in Stone_Age:
     aeon="Stone Age"
 
 
 
-
-print(username + ", you are a {0} baby of the {1}") .format(type, aeon)
+print( "{0} , you are a {1} baby of the {2}") .format(username, type, aeon)
 
 
 
