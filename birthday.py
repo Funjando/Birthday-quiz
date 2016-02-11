@@ -84,7 +84,7 @@ else:
         aeon="nineties"
         
     if birthyear in two_thousands:
-        aeon="two thousand"
+        aeon="two thousands"
         
     if birthyear in Stone_Age:
         aeon="Stone Age"
