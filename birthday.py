@@ -60,32 +60,34 @@ birthday=int(input("And the day? " ))
 if birthmonth=="October" and birthday==31:
     print("You were born on Halloween! ")
 
-elif birthmonth==month and birthday==todaydate:
+if birthmonth==month and birthday==todaydate:
     print("Happy birthday! ")
+ 
+else:
     
-elif birthmonth in winter:
-    season="winter"
+    elif birthmonth in winter:
+        season="winter"
 
-elif birthmonth in spring:
-    season="spring"
+    elif birthmonth in spring:
+        season="spring"
 
-elif birthmonth in summer:
-    season="summer"
+    elif birthmonth in summer:
+        season="summer"
 
-elif birthmonth in fall:
-    season="fall"
+    elif birthmonth in fall:
+        season="fall"
 
-elif birthyear in eighties:
-    aeon="eighties"
+    elif birthyear in eighties:
+        aeon="eighties"
 
-elif birthyear in nineties:
-    aeon="nineties"
+    elif birthyear in nineties:
+        aeon="nineties"
     
-elif birthyear in two_thousands:
-    aeon="two thousand"
+    elif birthyear in two_thousands:
+        aeon="two thousand"
     
-elif birthyear in Stone_Age:
-    aeon="Stone Age"
+    elif birthyear in Stone_Age:
+        aeon="Stone Age"
 
 
 s="{0}, you are a {1} baby of the {2}"
