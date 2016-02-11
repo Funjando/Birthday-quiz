@@ -51,7 +51,7 @@ Stone_Age=list(range(0, 1980))
 
 #Inputs
 username=input("Hello, what is your name? ")
-birthmonth=input("Hi " + username + ", what was the name of the month you were born in " + username + "? ")
+birthmonth=input("Hi " + username + ", what was the name of the month you were born in? ")
 birthyear=int(input("And what year were you born in, " + username + "? "))
 birthday=int(input("And the day? " ))
 
@@ -90,7 +90,7 @@ else:
         aeon="Stone Age"
     
     
-    s="{0}, you are a {1} baby of the {2}"
+    s="{0}, you are a {1} baby of the {2}."
     print(s.format(username, season, aeon))
     
 
