@@ -58,10 +58,10 @@ birthday=int(input("And the day?" ))
 
 #Code
 if birthmonth=="October" and birthday==31:
-    print("You were born on Halloween!")
+    print("You were born on Halloween! ")
 
 if birthmonth==month and birthday==todaydate:
-    print("Happy birthday!")
+    print("Happy birthday! ")
     
 if birthmonth in winter:
     season="winter"
